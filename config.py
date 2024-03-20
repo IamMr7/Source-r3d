@@ -22,7 +22,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1900700))
 
 # معرف الدردشة لمجموعة لتسجيل أنشطة الروبوت
-LOGGER_ID = int(getenv("OWNER_ID","6909581339"))
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # احصل على هذه القيمة من @KIMY0Bot على Telegram بواسطة /id
 OWNER_ID = int(getenv("OWNER_ID", 6900435039))
