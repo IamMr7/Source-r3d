@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "حط هنا رابط الجيتهب الي هترفع فيه الملف",
+    "https://github.com/IamMr7/Source-r3d.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
