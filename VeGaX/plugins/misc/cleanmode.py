@@ -19,7 +19,6 @@ from VeGaX.utils.database import (get_active_chats,
 from VeGaX.utils.decorators.language import language
 from VeGaX.utils.formatters import alpha_to_int
 
-AUTO_DELETE = config.CLEANMODE_DELETE_MINS
 AUTO_SLEEP = 5
 IS_BROADCASTING = False
 cleanmode_group = 15
